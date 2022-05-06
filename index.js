@@ -1,5 +1,5 @@
 function isAAA(string) {
-    return string === 'AAA'
+  return string === "AAA";
 }
 
 module.exports = isAAA;
