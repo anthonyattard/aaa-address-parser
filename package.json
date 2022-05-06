@@ -1,0 +1,22 @@
+{
+  "name": "aaa-address-parser",
+  "version": "1.0.0",
+  "description": "Address parser",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anthonyattard/aaa-address-parser.git"
+  },
+  "keywords": [
+    "parser"
+  ],
+  "author": "Anthony Attard",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anthonyattard/aaa-address-parser/issues"
+  },
+  "homepage": "https://github.com/anthonyattard/aaa-address-parser#readme"
+}
