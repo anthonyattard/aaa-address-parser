@@ -3,4 +3,3 @@ function isAAA(string) {
 }
 
 module.exports = isAAA;
-

@@ -1,6 +1,6 @@
 {
   "name": "aaa-address-parser",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Address parser",
   "main": "index.js",
   "scripts": {
