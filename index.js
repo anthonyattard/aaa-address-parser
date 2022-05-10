@@ -3,7 +3,8 @@ function isAAA(string) {
 }
 
 function parseCity(string) {
-  var city = string.split(/,\s/).at(-2);
+  let arr = string.split(/,\s/);
+  var city = arr[arr.length - 2];
   return city;
 }
 
@@ -16,7 +17,8 @@ function parseState(string) {
 
 function parseZip(string) {
   let regexZip = /\d{5}?/g;
-  var stateZip = string.split(/,\s/).at(-1);
+  let arr = string.split(/,\s/);
+  let stateZip = arr[arr.length - 1];
   let zip = stateZip.match(regexZip);
   return zip;
 }
