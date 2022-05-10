@@ -12,7 +12,7 @@ function parseState(string) {
   let regexState =
     /(A[KLRZ]|C[AOT]|D[CE]|FL|GA|HI|I[ADLN]|K[SY]|LA|M[ADEINOST]|N[CDEHJMVY]|O[HKR]|PA|RI|S[CD]|T[NX]|UT|V[AT]|W[AIVY])/g;
   let state = string.match(regexState);
-  return state[0];
+  return state[0].toLowerCase();
 }
 
 function parseZip(string) {
