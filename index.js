@@ -4,7 +4,8 @@ function isAAA(string) {
 
 function parseCity(string) {
   let arr = string.split(/,\s/);
-  var city = arr[arr.length - 2];
+  var city = arr[arr.length - 2].toLowerCase().replace(/ /g, "_");
+
   return city;
 }
 
